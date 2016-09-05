@@ -27,7 +27,7 @@ lint:
 code-check: vet lint
 
 fmt:
-	@goapp fmt ./$(VPATH)/...
+	@gofmt -s -w $(VPATH)
 
 imports:
 	@find $(VPATH) -type f -regex ".*\.go" -exec goimports -w {} \;
