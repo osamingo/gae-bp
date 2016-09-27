@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	"gaebp/route"
+	"gaebp/dispatch"
 )
 
 func init() {
-	http.Handle("/", route.NewMux())
+	http.Handle("/", dispatch.NewMux())
 }

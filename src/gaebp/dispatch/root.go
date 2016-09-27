@@ -1,4 +1,4 @@
-package route
+package dispatch
 
 import (
 	"errors"

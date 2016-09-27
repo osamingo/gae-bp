@@ -4,7 +4,7 @@
 		{
 			"importpath": "github.com/celrenheit/lion",
 			"repository": "https://github.com/celrenheit/lion",
-			"revision": "f53a1a8bbd20d2eea017e56bce275ce36d07ac68",
+			"revision": "77edb93a3590bf965f112424ef8d2a9039c94a8c",
 			"branch": "master"
 		},
 		{
@@ -28,7 +28,7 @@
 		{
 			"importpath": "golang.org/x/net/context",
 			"repository": "https://go.googlesource.com/net",
-			"revision": "07b51741c1d6423d4a6abab1c49940ec09cb1aaf",
+			"revision": "f09c4662a0bd6bd8943ac7b4931e185df9471da4",
 			"branch": "master",
 			"path": "/context"
 		}
